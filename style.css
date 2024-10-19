@@ -1,0 +1,245 @@
+body{
+    padding: 0px;
+    margin: 0px 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Navigation bar */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(176, 176, 176);
+    box-shadow: -1px -1px 20px 0px rgb(172, 171, 171);
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 0px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 12px;
+    padding: 12px 12px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #38404f;
+    font-size: 1.5rem;
+    
+}
+nav ul li a:hover{
+    color: #ff6612;
+}
+/* .nav_elements{
+    /* margin: 0px 12px;
+    padding: 12px 12px; 
+} */
+.logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 170px;
+    top: 12px;
+}
+.book_btn{
+    position: absolute;
+    right: 115px;
+    top: 15px;
+    border: 2px solid #ff6612;
+    background-color: #ff6612;
+    border-radius: 30px;
+    color: white;
+    margin: 0px 12px;
+    padding: 12px 12px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.book_btn:hover{
+    background-color: white;
+    color:#ff6612;
+}
+
+/* intro section */
+/* .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.kedarnath_img{
+    position: absolute;
+    top: 4.8rem;
+    left: 0px;
+    height: 60rem;
+    width: 50rem;
+}
+.intro_content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 12px; */
+    margin: 0px;
+    top: 5rem;
+    left: 50%;
+    width: 40%;
+    
+}
+.intro_content h1{
+    font-size: 5rem;
+    color: #38404f;
+    font-family: 'Poppins', sans-serif;
+}
+.intro_content p{
+    font-size: 2rem;
+}
+.book_yatra{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    font-size: 1.5rem;
+    padding: 12px 12px;
+    color: #38404f;
+    border-radius: 30px;
+    border: 2px solid #ff6612;
+    background-color: white;
+}
+.book_yatra:hover{
+    background-color: #ff6612;
+    color: white;
+    cursor: pointer;
+}
+.intro_cards{
+    position: absolute;
+    top: 48.5rem;
+    left: 5%;
+    width: 115rem;
+}
+.intro_cards a img{
+    border-radius: 20px;
+    width: 20%;
+    
+}
+.intro_cards a{
+
+    text-decoration: none;
+    margin: 12px 12px;
+}
+
+/* About content includes overview weather about */
+.about{
+    position:relative;
+    top: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about_card{
+    position: absolute;
+    left: 8rem;
+    top: 0rem;
+    width: 50rem;
+    border: 2px solid #ff6612;
+    background-color: #ff6612;
+}
+.about_content{
+    position: absolute;
+    right: 15rem;
+    top: 3rem;
+    width: 45rem;
+    
+}
+.about_box h5{
+    margin: 25px 40px ;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.about_box h1{
+    margin: 25px 40px ;
+    color: white;
+    font-size: 4rem;
+    font-weight: 1000;
+}
+.about_box button{
+    padding: 12px 20px;
+    margin: 12px 12px 12px 38px;
+    background-color: #ff6612;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid white;
+}
+.about_box button:hover{
+    background-color: rgb(234, 234, 234);
+    color: #ff6612;
+    font-weight: 700;
+    cursor: pointer;
+}
+.about_box img{
+    height: 30rem;
+    width: 50rem;
+}
+.about_content h5{
+    margin: 12px 12px;
+    color: #ff6612;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.about_content h2{
+    margin: 12px 12px;
+    color:#38404f;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.about_content p{
+    margin: 12px 12px;
+    color:#686b71;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+
+
+.temple_info{
+    position: absolute;
+    top: 125rem;
+    left: 2rem;
+}
+.temple_info h4{
+    color: #ff6612;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 12px 12px;
+}
+.temple_info h2{
+    color:#38404f;
+    font-size: 4rem;
+    font-weight: 1000;
+    margin: 12px 12px;
+}
+.temple_btn button{
+    border: 2px solid #ff6612;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 40px 3px 10px;
+    margin: 12px 20px;
+}
+.temple_btn button img{
+    
+    width:46px;
+}
+.temple_btn button span{
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: 20px;
+    /* margin: 12px 12px; */
+    color: #38404f;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
